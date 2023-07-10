@@ -46,8 +46,61 @@
 .btn{
     padding: 12px 20px;
     border: none;
+    cursor: pointer;
 }
 .bg-primary{
     background: red;
     color: white;
+}
+.service-container{
+   
+    height: 100vh;
+    background-image: url("../digital-agency-b8/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.service-description{
+    width: 50%;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.first-two-box{
+   display: flex;
+   margin-top:5px;
+   gap: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.auther-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
 }
